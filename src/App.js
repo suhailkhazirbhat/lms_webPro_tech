@@ -24,15 +24,15 @@ import AdminDashboard from "./Attendance/screens/Admin_dash"
 const Routing = ()=>{
   const history = useHistory()
 
-  useEffect(()=>{
-    const user = JSON.parse(localStorage.getItem("currentUser"))
-    console.log("user",user)
-    if(user){
-      // dispatch({type:"USER",payload:user})
-    }else{
-      history.push('/landing')
-    }
-  },[])
+  // useEffect(()=>{
+  //   const user = JSON.parse(localStorage.getItem("currentUser"))
+  //   console.log("user",user)
+  //   if(user){
+  //     // dispatch({type:"USER",payload:user})
+  //   }else{
+  //     history.push('/landing')
+  //   }
+  // },[])
   return(
     <Switch>
       <Route exact path="/" >
