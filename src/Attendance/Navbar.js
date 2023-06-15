@@ -22,7 +22,7 @@ function Navbar() {
             <marquee>
               <p>
                   Regenerate response
-                  defrgthyjuhrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr hbrrrrrrrrrrrrrrrr g
+                   g
             </p>
             </marquee>
           
